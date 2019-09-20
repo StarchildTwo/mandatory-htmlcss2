@@ -28,25 +28,34 @@
 
 .links {
     line-height: 100px;
+    padding-right: 10px;
+    text-decoration-color: white;
+    color: white;
+}
+
+.links:hover {
+    text-decoration-color: white;
+    color: white;
+    transition: 0.1s;
+    /* padding-left: 2px;
+    padding-right: 2px; */
+    transform: scale(1.1);
 }
 
 img {
     margin: 10px;
-}
-
-.img-small {
     width: 17%;
     min-width: 150px;
-
-}
-
-.img-big {
-    width: 45%;
+    flex: auto;
 }
 
 @media (max-width: 700px) {
-    .main-body>img {
-        width: 40%;
 
+    .links {
+        display: none;
+    }
+
+    .head {
+        justify-content: center;
     }
 }
