@@ -17,7 +17,7 @@
 .main-body {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(51, 50, 50);
     justify-content: center;
 }
 
@@ -27,15 +27,16 @@
 }
 
 .links {
-    line-height: 100px;
-    padding-right: 10px;
-    text-decoration-color: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    text-decoration: none;
     color: white;
+    height: 23px;
 }
 
 .links:hover {
-    text-decoration-color: white;
-    color: white;
+    border-bottom: 2px solid rgb(23, 104, 226);
+    color: rgb(23, 104, 226);
     transition: 0.1s;
     /* padding-left: 2px;
     padding-right: 2px; */
@@ -47,6 +48,11 @@ img {
     width: 17%;
     min-width: 150px;
     flex: auto;
+}
+
+img:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
 }
 
 @media (max-width: 700px) {
