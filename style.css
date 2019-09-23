@@ -38,8 +38,6 @@
     border-bottom: 2px solid rgb(23, 104, 226);
     color: rgb(23, 104, 226);
     transition: 0.1s;
-    /* padding-left: 2px;
-    padding-right: 2px; */
     transform: scale(1.1);
 }
 
